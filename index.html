@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Embedux Ltd</title>
+<meta name="description" content="Embedux Ltd: embedded systems consulting and development, since 2008.">
+<style>
+  :root { --accent: #f39200; --ink: #3c3c3c; --muted: #6b6b6b; --line: #e6e6e6; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { min-height: 100vh; display: flex; flex-direction: column;
+         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+         background: #fff; color: var(--ink); border-top: 6px solid var(--accent); }
+  main { flex: 1; display: flex; align-items: center; justify-content: center; padding: 48px 16px; }
+  .card { text-align: center; max-width: 560px; width: 100%; }
+  .logo { display: block; margin: 0 auto 36px; width: 260px; max-width: 80%; height: auto; }
+  h1 { margin: 0; font-size: 2rem; font-weight: 600; letter-spacing: 0.01em; }
+  .rule { width: 56px; height: 3px; background: var(--accent); border: 0; margin: 28px auto; }
+  .tagline { margin: 0 0 32px; font-size: 1.15rem; line-height: 1.5; }
+  .contact { display: inline-block; padding: 12px 22px; border: 1.5px solid var(--accent); border-radius: 6px;
+             color: var(--ink); text-decoration: none; font-size: 1rem; }
+  .contact:hover, .contact:focus { background: var(--accent); color: #fff; }
+  footer { padding: 20px 16px; text-align: center; font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--line); }
+  @media (max-width: 480px) {
+    h1 { font-size: 1.6rem; }
+    .tagline { font-size: 1.05rem; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <img class="logo" src="logo.png" width="199" height="77" alt="Embedux - Embedded Systems Consulting">
+    <h1>Embedux Ltd</h1>
+    <hr class="rule">
+    <p class="tagline">Embedded systems consulting and development, since 2008.</p>
+    <a class="contact" href="mailto:info@embedux.co.il">info@embedux.co.il</a>
+  </div>
+</main>
+<footer>&copy; Embedux Ltd</footer>
+</body>
+</html>
